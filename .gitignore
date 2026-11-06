@@ -14,3 +14,8 @@ __pycache__/
 src/**/*
 !src/**/
 !src/**/*.ipynb
+
+# Web generada (mkdocs build), su caché y los notebooks sin soluciones (scripts/enunciados.py)
+site/
+.cache/
+enunciados/
