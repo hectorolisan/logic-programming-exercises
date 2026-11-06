@@ -137,7 +137,7 @@ Every push to `main` publishes it on GitHub Pages through `.github/workflows/pag
 
 The statements are adapted and translated from:
 
-- [Ejercicios de Programación con Python](https://aprendeconalf.es/docencia/python/ejercicios/), Alfredo Sánchez Alberca ([CC BY-NC-SA 3.0 ES](https://creativecommons.org/licenses/by-nc-sa/3.0/es/)). Data files are downloaded from the author's repository.
+- [Ejercicios de Programación con Python](https://aprendeconalf.es/python-ejercicios/), Alfredo Sánchez Alberca ([CC BY-NC-SA 3.0 ES](https://creativecommons.org/licenses/by-nc-sa/3.0/es/)). Data files are downloaded from the author's repository.
 - *Introducción a la Programación con Python*, Andrés Marzal and Isabel Gracia (all 484 exercises, adapted from Python 2 and the PythonG environment to Python 3 and Matplotlib)
 - [Top 50 Ejemplos y Ejercicios](https://ellibrodepython.com/ejemplos-ejercicios-python), El Libro De Python
 - [30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python), Asabeneh Yetayeh. Data files are downloaded from its repository.
@@ -147,7 +147,7 @@ All solutions are original.
 
 ## License
 
-This project is licensed under the [CC BY-NC-SA 3.0 ES License](LICENSE), the same license as the [Ejercicios de Programación con Python](https://aprendeconalf.es/docencia/python/ejercicios/) statements it adapts ([legal code](https://creativecommons.org/licenses/by-nc-sa/3.0/es/legalcode.es)).
+This project is licensed under the [CC BY-NC-SA 3.0 ES License](LICENSE), the same license as the [Ejercicios de Programación con Python](https://aprendeconalf.es/python-ejercicios/) statements it adapts ([legal code](https://creativecommons.org/licenses/by-nc-sa/3.0/es/legalcode.es)).
 
 ---
 
