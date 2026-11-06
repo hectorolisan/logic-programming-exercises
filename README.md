@@ -1,6 +1,6 @@
 # Logic Programming Exercises
 
-- 717 Python programming and logic exercises in 106 notebooks, solved and explained in Spanish
+- 723 Python programming and logic exercises in 107 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
 - Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit...)
@@ -57,7 +57,7 @@ logic-programming-exercises/
 │   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async, iterators, generators, decorators
 │   ├── 09-recursividad/             # Recursion, fractals and backtracking
 │   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing and concurrency
-│   ├── 11-ficheros/                 # Text, CSV, JSON, SQLite, internet files, interpreter
+│   ├── 11-ficheros/                 # Text, CSV, JSON, SQLite, internet files, interpreter, One Billion Row Challenge
 │   ├── 12-clases-objetos/           # Classes, records, dates, video store, data structures, modern Python
 │   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy algorithms
 │   ├── 14-busqueda/                 # Linear, binary, DFS, BFS
@@ -79,6 +79,7 @@ logic-programming-exercises/
 ├── .github/workflows/pages.yml      # Builds and publishes the website on GitHub Pages
 ├── mkdocs.yml                       # Website configuration
 ├── INDEX.md                         # Exercise index
+├── AGENTS.md                        # Guidance for coding agents
 ├── requirements.txt                 # Project dependencies
 ├── .gitignore
 ├── LICENSE
