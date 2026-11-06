@@ -1,6 +1,6 @@
 # Índice de ejercicios
 
-717 ejercicios en 106 notebooks. Generado con `python scripts/index.py`.
+723 ejercicios en 107 notebooks. Generado con `python scripts/index.py`.
 
 La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) o, si no lo indica, de su posición dentro del tema.
 
@@ -106,6 +106,7 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Avanzado](src/11-ficheros/03-avanzado.ipynb) | Avanzado | 7 |
 | [Utilidades de texto](src/11-ficheros/04-utilidades-de-texto.ipynb) | Intermedio | 10 |
 | [Agenda, plantillas e intérprete](src/11-ficheros/05-agenda-plantillas-e-interprete.ipynb) | Avanzado | 7 |
+| [Mil millones de filas](src/11-ficheros/06-mil-millones-de-filas.ipynb) | Avanzado | 6 |
 
 ## Clases y objetos
 
