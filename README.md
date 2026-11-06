@@ -5,7 +5,9 @@
 - Each exercise shows the statement followed by its solution, with outputs already rendered
 - Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit...)
 - Interactive Jupyter Notebook workflow
-- Exercise index in [INDICE.md](INDICE.md) and a static website built with MkDocs
+- Exercise index in [INDEX.md](INDEX.md) and a [static website](https://hectorolisan.github.io/logic-programming-exercises/) built with MkDocs
+
+![cover](./public/cover.webp)
 
 ## Requirements
 
@@ -42,7 +44,8 @@ Topics 01 to 18 only need `ipykernel`, `matplotlib` and `pytest`; the rest of th
 
 ```
 logic-programming-exercises/
-├── public/                          # Static assets
+├── public/
+│   └── cover.webp
 ├── src/
 │   ├── 01-tipos-datos-simples/      # Variables, operators, expressions, binary representation
 │   ├── 02-cadenas/                  # Strings
@@ -68,14 +71,14 @@ logic-programming-exercises/
 │   ├── 22-librerias-cientificas/    # sympy, geopy, rdkit, simpy, scikit-image, qiskit, tensorflow
 │   └── 23-herramientas/             # cryptography, logging, schedule, pypdf, openpyxl, cffi, pyinstaller, PyQt6, pygame, streamlit
 ├── scripts/
-│   ├── indice.py                    # Generates INDICE.md
-│   ├── enunciados.py                # Copies the notebooks without solutions into enunciados/
+│   ├── index.py                     # Generates INDEX.md
+│   ├── statements.py                # Copies the notebooks without solutions into statements/
 │   └── mkdocs_hooks.py              # Fills the website home page with the index
 ├── docs/                            # Website home page, styles and build dependencies
 ├── overrides/                       # Material for MkDocs template (download button and credits)
 ├── .github/workflows/pages.yml      # Builds and publishes the website on GitHub Pages
 ├── mkdocs.yml                       # Website configuration
-├── INDICE.md                        # Exercise index
+├── INDEX.md                         # Exercise index
 ├── requirements.txt                 # Project dependencies
 ├── .gitignore
 ├── LICENSE
@@ -112,16 +115,16 @@ jupyter notebook src/01-tipos-datos-simples/01-basico.ipynb
    - Training the neural network (`22-librerias-cientificas/02-redes-neuronales`) and building executables (`23-herramientas`) take a few minutes.
    - Desktop programs (PyQt6, pygame) and web apps (Flask, Streamlit, Bokeh) are saved as scripts and tested without opening windows or servers; run them from the terminal to try them.
 
-3. Practice without solutions: generate copies of the notebooks with only the statements (saved in `enunciados/`, ignored by Git):
+3. Practice without solutions: generate copies of the notebooks with only the statements (saved in `statements/`, ignored by Git):
 
 ```bash
-python scripts/enunciados.py
+python scripts/statements.py
 ```
 
 4. Regenerate the exercise index after adding or renaming notebooks:
 
 ```bash
-python scripts/indice.py
+python scripts/index.py
 ```
 
 5. Build the website (notebooks are not executed again, the saved outputs are used):
