@@ -1,0 +1,17 @@
+# Mac OS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Virtual environments
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ficheros generados al ejecutar los notebooks
+src/**/*.txt
+src/**/*.csv
+src/**/*.db
+src/**/ejemplo-ficheros/
