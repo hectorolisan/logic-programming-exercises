@@ -1,0 +1,58 @@
+site_name: Logic Programming Exercises
+site_description: Ejercicios de lógica y programación en Python resueltos y explicados en español
+site_url: https://hectorolisan.github.io/logic-programming-exercises/
+repo_url: https://github.com/hectorolisan/logic-programming-exercises
+repo_name: logic-programming-exercises
+edit_uri: ""
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: es
+  font:
+    text: Geist
+    code: Geist Mono
+  icon:
+    logo: material/code-braces
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+hooks:
+  - scripts/mkdocs_hooks.py
+
+plugins:
+  - search:
+      lang: es
+  - mkdocs-jupyter:
+      notebook_dirs:
+        ejercicios: src
+      include: ["*.ipynb"]
+      include_source: true
+      no_prompt: true
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
