@@ -1,15 +1,16 @@
 # Logic Programming Exercises
 
-- 335 Python programming and logic exercises, solved and explained in Spanish
+- 588 Python programming and logic exercises in 90 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
-- Covers language fundamentals plus classic algorithms: searching, sorting, arrays, graphs and dynamic programming
-- Interactive Jupyter Notebook workflow, standard library only (plus `matplotlib` for a few plots)
+- Covers language fundamentals, classic algorithms (searching, sorting, arrays, graphs, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit...)
+- Interactive Jupyter Notebook workflow
 
 ## Requirements
 
 - Python 3.10 or newer
 - `pip` (Python package manager)
+- Internet connection for the notebooks that download data
 
 ## Installation
 
@@ -34,41 +35,55 @@ source .venv/bin/activate     # Linux/macOS
 pip install -r requirements.txt
 ```
 
+Topics 01 to 18 only need `ipykernel` and `matplotlib`; the rest of the dependencies are used from topic 19 onwards.
+
 ## Project Structure
 
 ```
 logic-programming-exercises/
 ├── public/                          # Static assets
 ├── src/
-│   ├── 01-tipos-datos-simples/      # Variables, operators, input/output
+│   ├── 01-tipos-datos-simples/      # Variables, operators, expressions, binary representation
 │   ├── 02-cadenas/                  # Strings
 │   ├── 03-condicionales/            # if / elif / else
-│   ├── 04-bucles/                   # for / while
-│   ├── 05-listas-tuplas-conjuntos/  # Lists, tuples, sets, matrices
+│   ├── 04-bucles/                   # for / while, traces, simulations and games
+│   ├── 05-listas-tuplas-conjuntos/  # Lists, tuples, sets, matrices, cellular automata
 │   ├── 06-diccionarios/             # Dictionaries
-│   ├── 07-funciones/                # Functions and applications (finance, simulations)
+│   ├── 07-funciones/                # Functions, applications and board games (chess, checkers...)
 │   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async
-│   ├── 09-recursividad/             # Recursion
-│   ├── 10-modulos-estandar/         # random, datetime, re
-│   ├── 11-ficheros/                 # Text, CSV, JSON, SQLite, internet files
-│   ├── 12-clases-objetos/           # Classes and objects
+│   ├── 09-recursividad/             # Recursion and fractals
+│   ├── 10-modulos-estandar/         # random, datetime, re and custom modules
+│   ├── 11-ficheros/                 # Text, CSV, JSON, SQLite, internet files, interpreter
+│   ├── 12-clases-objetos/           # Classes, records, dates, video store
 │   ├── 13-algoritmos-basicos/       # Euclid, Union-Find, Huffman
 │   ├── 14-busqueda/                 # Linear, binary, DFS, BFS
 │   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap
 │   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP
 │   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal
-│   └── 18-programacion-dinamica/    # Subset sum, 0/1 knapsack
+│   ├── 18-programacion-dinamica/    # Subset sum, 0/1 knapsack
+│   ├── 19-numpy-pandas/             # NumPy and pandas
+│   ├── 20-visualizacion/            # Matplotlib, seaborn, wordcloud, yfinance, bokeh
+│   ├── 21-web-y-apis/               # requests, BeautifulSoup, Flask, MongoDB (mongomock)
+│   ├── 22-librerias-cientificas/    # sympy, geopy, rdkit, simpy, scikit-image, qiskit, tensorflow
+│   └── 23-herramientas/             # cryptography, logging, schedule, pypdf, openpyxl, cffi, pyinstaller, PyQt6, pygame, streamlit
 ├── requirements.txt                 # Project dependencies
 ├── .gitignore
 └── README.md
 ```
 
-Topic folders hold one or more notebooks numbered by difficulty (`01-basico`, `02-intermedio`, `03-avanzado`…). Algorithm folders hold one notebook per algorithm, also ordered by difficulty.
+Topic folders hold one or more notebooks numbered by difficulty (`01-basico`, `02-intermedio`, `03-avanzado`...) followed by notebooks with questions, traces and variants. Algorithm folders hold one notebook per algorithm, also ordered by difficulty.
 
 ### Dependencies
 
 - `ipykernel`: Runs the notebooks with the virtual environment
-- `matplotlib`: Plots in the finance and simulation exercises
+- `matplotlib`, `seaborn`, `bokeh`, `wordcloud`: Charts and visualizations
+- `numpy`, `pandas`, `sympy`, `simpy`, `scikit-image`, `geopy`, `rdkit`: Scientific computing
+- `tensorflow`, `qiskit`, `qiskit-aer`: Neural networks and quantum computing (simulated)
+- `requests`, `beautifulsoup4`, `lxml`, `yfinance`, `statsbombpy`: Web requests, scraping and online data
+- `flask`, `pymongo`, `mongomock`, `streamlit`: Web applications, APIs and dashboards
+- `cryptography`, `pypdf`, `openpyxl`, `schedule`: Security and automation
+- `cffi`, `ziglang`: Calling C code (`ziglang` provides the C compiler)
+- `pyinstaller`, `PyQt6`, `pygame`, `Pillow`: Executables, desktop interfaces and games
 
 ## Usage
 
@@ -78,16 +93,21 @@ Topic folders hold one or more notebooks numbered by difficulty (`01-basico`, `0
 jupyter notebook src/01-tipos-datos-simples/01-basico.ipynb
 ```
 
-2. Run the cells sequentially. Some exercises ask for keyboard input with `input()`, and some download data files from the internet (they are saved next to the notebook and ignored by Git).
+2. Run the cells sequentially. Keep in mind that:
+   - Some exercises ask for keyboard input with `input()`.
+   - Some notebooks download data from the internet.
+   - Files generated by the notebooks are saved next to them and ignored by Git (only `.ipynb` files are versioned in `src`).
+   - Training the neural network (`22-librerias-cientificas/02-redes-neuronales`) and building executables (`23-herramientas`) take a few minutes.
+   - Desktop programs (PyQt6, pygame) and web apps (Flask, Streamlit, Bokeh) are saved as scripts and tested without opening windows or servers; run them from the terminal to try them.
 
 ## Sources
 
 The statements are adapted and translated from:
 
-- [Ejercicios de Programación con Python](https://aprendeconalf.es/docencia/python/ejercicios/), Alfredo Sánchez Alberca (CC BY-NC-SA 3.0 ES)
-- *Introducción a la Programación con Python*, Andrés Marzal and Isabel Gracia (selection of its exercises)
-- [Top 50 Ejemplos y Ejercicios](https://ellibrodepython.com/ejemplos-ejercicios-python), El Libro De Python (only exercises solvable with the standard library)
-- [30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python), Asabeneh Yetayeh
+- [Ejercicios de Programación con Python](https://aprendeconalf.es/docencia/python/ejercicios/), Alfredo Sánchez Alberca (CC BY-NC-SA 3.0 ES). Data files are downloaded from the author's repository.
+- *Introducción a la Programación con Python*, Andrés Marzal and Isabel Gracia (all 484 exercises, adapted from Python 2 and the PythonG environment to Python 3 and Matplotlib)
+- [Top 50 Ejemplos y Ejercicios](https://ellibrodepython.com/ejemplos-ejercicios-python), El Libro De Python
+- [30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python), Asabeneh Yetayeh. Data files are downloaded from its repository.
 - Classic algorithms list (arrays, basics, searching, sorting and graphs)
 
 All solutions are original.

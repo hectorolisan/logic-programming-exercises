@@ -10,8 +10,7 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Ficheros generados al ejecutar los notebooks
-src/**/*.txt
-src/**/*.csv
-src/**/*.db
-src/**/ejemplo-ficheros/
+# Ficheros generados al ejecutar los notebooks: en src solo se versionan los .ipynb
+src/**/*
+!src/**/
+!src/**/*.ipynb
