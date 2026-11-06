@@ -15,7 +15,7 @@ src/**/*
 !src/**/
 !src/**/*.ipynb
 
-# Web generada (mkdocs build), su caché y los notebooks sin soluciones (scripts/enunciados.py)
+# Web generada (mkdocs build), su caché y los notebooks sin soluciones (scripts/statements.py)
 site/
 .cache/
-enunciados/
+statements/

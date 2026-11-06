@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from indice import notebooks, tablas, titulo_tema, totales  # noqa: E402
+from index import notebooks, tablas, titulo_tema, totales  # noqa: E402
 
 
 def on_page_markdown(markdown, page, **kwargs):

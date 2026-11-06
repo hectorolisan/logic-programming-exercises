@@ -1,4 +1,4 @@
-"""Genera INDICE.md con todos los notebooks: tema, dificultad, número de ejercicios y enlace."""
+"""Genera INDEX.md con todos los notebooks: tema, dificultad, número de ejercicios y enlace."""
 
 import json
 import re
@@ -89,13 +89,13 @@ def main():
     ejercicios, total = totales(temas)
     texto = (
         "# Índice de ejercicios\n\n"
-        f"{ejercicios} ejercicios en {total} notebooks. Generado con `python scripts/indice.py`.\n\n"
+        f"{ejercicios} ejercicios en {total} notebooks. Generado con `python scripts/index.py`.\n\n"
         "La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) "
         "o, si no lo indica, de su posición dentro del tema.\n\n"
         + tablas(temas, "src/")
     )
-    (RAIZ / "INDICE.md").write_text(texto, encoding="utf-8")
-    print(f"INDICE.md: {ejercicios} ejercicios en {total} notebooks")
+    (RAIZ / "INDEX.md").write_text(texto, encoding="utf-8")
+    print(f"INDEX.md: {ejercicios} ejercicios en {total} notebooks")
 
 
 if __name__ == "__main__":

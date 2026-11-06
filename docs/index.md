@@ -42,7 +42,7 @@ Cada ejercicio empieza con su enunciado y debajo tiene la solución con la salid
 
 **Practica sin soluciones**
 
-Clona el repositorio y ejecuta `python scripts/enunciados.py` para tener copias solo con los enunciados.
+Clona el repositorio y ejecuta `python scripts/statements.py` para tener copias solo con los enunciados.
 </div>
 
 <div markdown>

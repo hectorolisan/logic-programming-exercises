@@ -1,6 +1,6 @@
 # Índice de ejercicios
 
-717 ejercicios en 106 notebooks. Generado con `python scripts/indice.py`.
+717 ejercicios en 106 notebooks. Generado con `python scripts/index.py`.
 
 La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) o, si no lo indica, de su posición dentro del tema.
 

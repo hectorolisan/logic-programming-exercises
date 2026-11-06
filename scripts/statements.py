@@ -1,4 +1,4 @@
-"""Copia los notebooks de src a enunciados/ quitando las soluciones para practicar.
+"""Copia los notebooks de src a statements/ quitando las soluciones para practicar.
 
 Se conservan el texto y el código anterior al primer ejercicio (imports y preparación de datos);
 cada solución se sustituye por una celda de código vacía.
@@ -10,7 +10,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 SRC = RAIZ / "src"
-DESTINO = RAIZ / "enunciados"
+DESTINO = RAIZ / "statements"
 
 
 def solo_enunciados(nb):
