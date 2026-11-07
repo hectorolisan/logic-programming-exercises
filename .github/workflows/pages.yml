@@ -42,3 +42,6 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # the site is >100 MB and syncing can exceed the 10 min default
+          timeout: 1800000
