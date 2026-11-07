@@ -1,6 +1,6 @@
 # Logic Programming Exercises
 
-- 723 Python programming and logic exercises in 107 notebooks, solved and explained in Spanish
+- 1135 Python programming and logic exercises in 147 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
 - Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit...)
@@ -38,7 +38,7 @@ source .venv/bin/activate     # Linux/macOS
 pip install -r requirements.txt
 ```
 
-Topics 01 to 18 only need `ipykernel`, `matplotlib` and `pytest`; the rest of the dependencies are used from topic 19 onwards.
+Topics 01 to 18 only need `ipykernel`, `matplotlib`, `numpy` and `pytest`; the rest of the dependencies are used from topic 19 onwards.
 
 ## Project Structure
 
@@ -52,24 +52,28 @@ logic-programming-exercises/
 │   ├── 03-condicionales/            # if / elif / else
 │   ├── 04-bucles/                   # for / while, traces, simulations and games
 │   ├── 05-listas-tuplas-conjuntos/  # Lists, tuples, sets, matrices, cellular automata
-│   ├── 06-diccionarios/             # Dictionaries
+│   ├── 06-diccionarios/             # Dictionaries, collections, nested dictionaries
 │   ├── 07-funciones/                # Functions, applications, board games (chess, checkers...) and exceptions
 │   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async, iterators, generators, decorators
 │   ├── 09-recursividad/             # Recursion, fractals and backtracking
-│   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing and concurrency
+│   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing, concurrency, enum, pathlib, argparse, json, logging
 │   ├── 11-ficheros/                 # Text, CSV, JSON, SQLite, internet files, interpreter, One Billion Row Challenge
-│   ├── 12-clases-objetos/           # Classes, records, dates, video store, data structures, modern Python
-│   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy algorithms
+│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python
+│   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy, divide and conquer, modular arithmetic and primes
 │   ├── 14-busqueda/                 # Linear, binary, DFS, BFS
-│   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap
-│   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP
-│   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, A*
-│   ├── 18-programacion-dinamica/    # Subset sum, 0/1 knapsack, coin change, LCS, Levenshtein, LIS
-│   ├── 19-numpy-pandas/             # NumPy and pandas
+│   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap, shell, radix, bucket, sorted
+│   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP, two pointers, sliding window, prefix sums, bits, Rabin-Karp, Z, Manacher
+│   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, A*, bipartite, SCC, bridges, Eulerian path, max flow
+│   ├── 18-programacion-dinamica/    # Subset sum, knapsack, coin change, LCS, Levenshtein, LIS, rod cutting, partition, palindromes, matrix chain, grid paths, TSP
+│   ├── 19-numpy-pandas/             # NumPy and pandas (merge, pivot, cleaning, time series)
 │   ├── 20-visualizacion/            # Matplotlib, seaborn, wordcloud, yfinance, bokeh
-│   ├── 21-web-y-apis/               # requests, BeautifulSoup, Flask, MongoDB (mongomock)
+│   ├── 21-web-y-apis/               # requests, BeautifulSoup, Flask, MongoDB (mongomock), FastAPI
 │   ├── 22-librerias-cientificas/    # sympy, geopy, rdkit, simpy, scikit-image, qiskit, tensorflow
-│   └── 23-herramientas/             # cryptography, logging, schedule, pypdf, openpyxl, cffi, pyinstaller, PyQt6, pygame, streamlit
+│   ├── 23-herramientas/             # cryptography, logging, schedule, pypdf, openpyxl, cffi, pyinstaller, PyQt6, pygame, streamlit
+│   ├── 24-bases-de-datos/           # SQLite and SQL, SQLAlchemy
+│   ├── 25-machine-learning/         # scikit-learn: regression, classification, clustering and validation
+│   ├── 26-simulacion-y-probabilidad/ # Monte Carlo, random walks, Markov chains
+│   └── 27-retos/                    # Interview problems, puzzles and a task manager project
 ├── scripts/
 │   ├── index.py                     # Generates INDEX.md
 │   ├── statements.py                # Copies the notebooks without solutions into statements/
@@ -96,7 +100,9 @@ Topic folders hold one or more notebooks numbered by difficulty (`01-basico`, `0
 - `numpy`, `pandas`, `sympy`, `simpy`, `scikit-image`, `geopy`, `rdkit`: Scientific computing
 - `tensorflow`, `qiskit`, `qiskit-aer`: Neural networks and quantum computing (simulated)
 - `requests`, `beautifulsoup4`, `lxml`, `yfinance`, `statsbombpy`: Web requests, scraping and online data
-- `flask`, `pymongo`, `mongomock`, `streamlit`: Web applications, APIs and dashboards
+- `flask`, `fastapi`, `httpx`, `pymongo`, `mongomock`, `streamlit`: Web applications, APIs and dashboards
+- `sqlalchemy`: Databases
+- `scikit-learn`: Machine learning
 - `cryptography`, `pypdf`, `openpyxl`, `schedule`: Security and automation
 - `cffi`, `ziglang`: Calling C code (`ziglang` provides the C compiler)
 - `pyinstaller`, `PyQt6`, `pygame`, `Pillow`: Executables, desktop interfaces and games

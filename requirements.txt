@@ -33,3 +33,7 @@ lxml
 pymongo
 mongomock
 Pillow
+scikit-learn
+sqlalchemy
+fastapi
+httpx

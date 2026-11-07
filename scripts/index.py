@@ -31,6 +31,10 @@ TEMAS = {
     "21-web-y-apis": "Web y APIs",
     "22-librerias-cientificas": "Librerías científicas",
     "23-herramientas": "Herramientas",
+    "24-bases-de-datos": "Bases de datos",
+    "25-machine-learning": "Machine learning",
+    "26-simulacion-y-probabilidad": "Simulación y probabilidad",
+    "27-retos": "Retos",
 }
 NIVELES = ("Básico", "Intermedio", "Avanzado")
 

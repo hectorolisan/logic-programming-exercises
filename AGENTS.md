@@ -5,7 +5,7 @@ This file provides guidance to coding agents when working with code in this repo
 ## Project
 
 Python programming and logic exercises, solved and explained in Spanish, as Jupyter notebooks in `src/`.
-There are 23 topic folders (`01-tipos-datos-simples` … `23-herramientas`), ordered from easiest to hardest, and
+There are 27 topic folders (`01-tipos-datos-simples` … `27-retos`), ordered from easiest to hardest, and
 each folder holds notebooks numbered by difficulty. The notebooks are also published as a static website
 (MkDocs + Material + mkdocs-jupyter) on GitHub Pages. There is no package or app: the deliverables are the
 notebooks, `INDEX.md` and the website.
