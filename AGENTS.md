@@ -5,7 +5,7 @@ This file provides guidance to coding agents when working with code in this repo
 ## Project
 
 Python programming and logic exercises, solved and explained in Spanish, as Jupyter notebooks in `src/`.
-There are 27 topic folders (`01-tipos-datos-simples` … `27-retos`), ordered from easiest to hardest, and
+There are 28 topic folders (`01-tipos-datos-simples` … `28-langchain`), ordered from easiest to hardest, and
 each folder holds notebooks numbered by difficulty. The notebooks are also published as a static website
 (MkDocs + Material + mkdocs-jupyter) on GitHub Pages. There is no package or app: the deliverables are the
 notebooks, `INDEX.md` and the website.
@@ -35,6 +35,9 @@ does not execute the notebooks: it renders the outputs saved in them.
   exception is part of the exercise, catch it and print it. New notebooks avoid `input()`, so nbconvert can run them.
 - **Self-checks**: prefer `assert` against brute force, the standard library or a previous solution, with fixed
   random seeds when the values are printed.
+- **LLM notebooks** (`28-langchain`) run offline: chat models are local `BaseChatModel` subclasses or fakes, embeddings
+  use `HashingVectorizer`, LangSmith traces use `tracing_context(enabled="local")` and evaluations
+  `upload_results=False`. Never require API keys.
 - **Generated files** (data, modules written with `%%writefile`, outputs) live next to the notebook and are
   gitignored: only `.ipynb` is versioned in `src/`. On Windows, multiprocessing uses spawn, so worker functions must
   be in a module written with `%%writefile`, not defined in the notebook.

@@ -37,3 +37,7 @@ scikit-learn
 sqlalchemy
 fastapi
 httpx
+langchain
+langchain-text-splitters
+langgraph
+langsmith

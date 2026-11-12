@@ -1,9 +1,9 @@
 # Logic Programming Exercises
 
-- 1135 Python programming and logic exercises in 147 notebooks, solved and explained in Spanish
+- 1193 Python programming and logic exercises in 152 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
-- Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit...)
+- Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit, LangChain...)
 - Interactive Jupyter Notebook workflow
 - Exercise index in [INDEX.md](INDEX.md) and a [static website](https://hectorolisan.github.io/logic-programming-exercises/) built with MkDocs
 
@@ -73,7 +73,8 @@ logic-programming-exercises/
 │   ├── 24-bases-de-datos/           # SQLite and SQL, SQLAlchemy
 │   ├── 25-machine-learning/         # scikit-learn: regression, classification, clustering and validation
 │   ├── 26-simulacion-y-probabilidad/ # Monte Carlo, random walks, Markov chains
-│   └── 27-retos/                    # Interview problems, puzzles and a task manager project
+│   ├── 27-retos/                    # Interview problems, puzzles and a task manager project
+│   └── 28-langchain/                # LangChain and LangSmith: LCEL, tools, agents, RAG from scratch, LangGraph, tracing and evaluation
 ├── scripts/
 │   ├── index.py                     # Generates INDEX.md
 │   ├── statements.py                # Copies the notebooks without solutions into statements/
@@ -103,6 +104,7 @@ Topic folders hold one or more notebooks numbered by difficulty (`01-basico`, `0
 - `flask`, `fastapi`, `httpx`, `pymongo`, `mongomock`, `streamlit`: Web applications, APIs and dashboards
 - `sqlalchemy`: Databases
 - `scikit-learn`: Machine learning
+- `langchain`, `langchain-text-splitters`, `langgraph`, `langsmith`: LLM applications, agents, RAG, tracing and evaluation (local deterministic models, no API keys needed)
 - `cryptography`, `pypdf`, `openpyxl`, `schedule`: Security and automation
 - `cffi`, `ziglang`: Calling C code (`ziglang` provides the C compiler)
 - `pyinstaller`, `PyQt6`, `pygame`, `Pillow`: Executables, desktop interfaces and games
@@ -152,6 +154,7 @@ The statements are adapted and translated from:
 - [Top 50 Ejemplos y Ejercicios](https://ellibrodepython.com/ejemplos-ejercicios-python), El Libro De Python
 - [30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python), Asabeneh Yetayeh. Data files are downloaded from its repository.
 - Classic algorithms list (arrays, basics, searching, sorting and graphs)
+- [LangChain documentation](https://docs.langchain.com/) and [RAG From Scratch](https://github.com/langchain-ai/rag-from-scratch), LangChain (the RAG notebooks follow its parts 1 to 18)
 
 All solutions are original.
 

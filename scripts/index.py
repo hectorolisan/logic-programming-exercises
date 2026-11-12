@@ -35,6 +35,7 @@ TEMAS = {
     "25-machine-learning": "Machine learning",
     "26-simulacion-y-probabilidad": "Simulación y probabilidad",
     "27-retos": "Retos",
+    "28-langchain": "LangChain y LangSmith",
 }
 NIVELES = ("Básico", "Intermedio", "Avanzado")
 

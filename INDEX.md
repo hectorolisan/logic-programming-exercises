@@ -1,6 +1,6 @@
 # Índice de ejercicios
 
-1135 ejercicios en 147 notebooks. Generado con `python scripts/index.py`.
+1193 ejercicios en 152 notebooks. Generado con `python scripts/index.py`.
 
 La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) o, si no lo indica, de su posición dentro del tema.
 
@@ -285,3 +285,13 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Problemas de entrevista](src/27-retos/01-problemas-de-entrevista.ipynb) | Básico | 14 |
 | [Puzles](src/27-retos/02-puzles.ipynb) | Intermedio | 12 |
 | [Proyecto gestor de tareas](src/27-retos/03-proyecto-gestor-de-tareas.ipynb) | Avanzado | 9 |
+
+## LangChain y LangSmith
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Modelos, prompts y cadenas](src/28-langchain/01-modelos-prompts-y-cadenas.ipynb) | Básico | 12 |
+| [Herramientas y agentes](src/28-langchain/02-herramientas-y-agentes.ipynb) | Básico | 13 |
+| [RAG desde cero](src/28-langchain/03-rag-desde-cero.ipynb) | Intermedio | 11 |
+| [RAG avanzado](src/28-langchain/04-rag-avanzado.ipynb) | Avanzado | 10 |
+| [Trazas y evaluación con LangSmith](src/28-langchain/05-langsmith.ipynb) | Avanzado | 12 |
