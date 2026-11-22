@@ -1,6 +1,6 @@
 # Logic Programming Exercises
 
-- 1438 Python programming and logic exercises in 171 notebooks, solved and explained in Spanish
+- 1636 Python programming and logic exercises in 186 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
 - Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit, LangChain...)
@@ -48,32 +48,32 @@ logic-programming-exercises/
 │   └── cover.webp
 ├── src/
 │   ├── 01-tipos-datos-simples/      # Variables, operators, expressions, binary representation
-│   ├── 02-cadenas/                  # Strings and string challenges (Morse, T9, spreadsheet columns, output formatting)
+│   ├── 02-cadenas/                  # Strings and string challenges (Morse, T9, spreadsheet columns, output formatting), classical ciphers
 │   ├── 03-condicionales/            # if / elif / else
 │   ├── 04-bucles/                   # for / while, traces, simulations, games, number series and text patterns
-│   ├── 05-listas-tuplas-conjuntos/  # Lists, tuples, sets, matrices, cellular automata, set methods and relations
+│   ├── 05-listas-tuplas-conjuntos/  # Lists, tuples, sets, matrices, cellular automata, set methods and relations, binary relations
 │   ├── 06-diccionarios/             # Dictionaries, collections (Counter, defaultdict, OrderedDict, deque, namedtuple), nested dictionaries
 │   ├── 07-funciones/                # Functions, applications, board games (chess, checkers...) and exceptions
-│   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async, iterators, generators, decorators, partial, itertools, coroutines
+│   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async, iterators, generators, decorators, partial, itertools, coroutines, Project Euler
 │   ├── 09-recursividad/             # Recursion, fractals and backtracking
 │   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing, concurrency, thread synchronization, enum, pathlib, argparse, json, logging, pickle, sockets, os/sys, math/statistics
 │   ├── 11-ficheros/                 # Text, CSV, JSON, XML, ZIP, SQLite, internet files, interpreter, One Billion Row Challenge
-│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python, design patterns and SOLID
-│   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy, divide and conquer, modular arithmetic and primes
-│   ├── 14-busqueda/                 # Linear, binary, DFS, BFS
+│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python, design patterns and SOLID, algebraic types, polynomials
+│   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy, divide and conquer, modular arithmetic and primes, special numbers and sequences, numerical methods
+│   ├── 14-busqueda/                 # Linear, binary, DFS, BFS, state-space search (hill climbing, best-first, 8-puzzle)
 │   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap, shell, radix, bucket, sorted
 │   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP, two pointers, sliding window, prefix sums, bits, Rabin-Karp, Z, Manacher
-│   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, A*, bipartite, SCC, bridges, Eulerian path, max flow
-│   ├── 18-programacion-dinamica/    # Subset sum, knapsack, coin change, LCS, Levenshtein, LIS, rod cutting, partition, palindromes, matrix chain, grid paths, TSP
-│   ├── 19-numpy-pandas/             # NumPy and pandas (merge, pivot, cleaning, time series, NumPy practice)
-│   ├── 20-visualizacion/            # Matplotlib, seaborn, wordcloud, yfinance, bokeh
+│   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, A*, bipartite, SCC, bridges, Eulerian path, max flow, graph properties
+│   ├── 18-programacion-dinamica/    # Subset sum, knapsack, coin change, LCS, Levenshtein, LIS, rod cutting, partition, palindromes, matrix chain, grid paths, TSP, partitions and other problems
+│   ├── 19-numpy-pandas/             # NumPy and pandas (merge, pivot, cleaning, time series, NumPy practice, masked arrays, exploratory data analysis)
+│   ├── 20-visualizacion/            # Matplotlib, seaborn, wordcloud, yfinance, bokeh, scientific plots (contours, error bars, quiver, 3D)
 │   ├── 21-web-y-apis/               # requests, BeautifulSoup, Flask, MongoDB (mongomock), FastAPI
 │   ├── 22-librerias-cientificas/    # sympy, geopy, rdkit, simpy, scikit-image, qiskit, tensorflow
-│   ├── 23-herramientas/             # cryptography, logging, schedule, pypdf, openpyxl, cffi, pyinstaller, PyQt6, pygame, streamlit
+│   ├── 23-herramientas/             # cryptography, logging, schedule, pypdf, openpyxl, cffi, pyinstaller, PyQt6, pygame, streamlit, property-based testing with Hypothesis
 │   ├── 24-bases-de-datos/           # SQLite and SQL, SQLAlchemy
 │   ├── 25-machine-learning/         # scikit-learn: regression, classification, clustering and validation
 │   ├── 26-simulacion-y-probabilidad/ # Monte Carlo, random walks, Markov chains
-│   ├── 27-retos/                    # Katas, interview problems, puzzles, games and simulations, a task manager and simulation projects
+│   ├── 27-retos/                    # Katas, interview problems, puzzles, games and simulations, a task manager and simulation projects, matrices and boards
 │   ├── 28-langchain/                # LangChain and LangSmith: LCEL, tools, agents, RAG from scratch, LangGraph, tracing and evaluation
 │   └── 29-apis-publicas/            # Keyless public APIs with requests: httpbin, JSONPlaceholder, PokéAPI, GitHub, Open-Meteo, World Bank, Frankfurter, Nager.Date, EMSC, Wikipedia, Open Library
 ├── scripts/
@@ -97,7 +97,7 @@ Topic folders hold one or more notebooks numbered by difficulty (`01-basico`, `0
 ### Dependencies
 
 - `ipykernel`: Runs the notebooks with the virtual environment
-- `pytest`: Testing exercises
+- `pytest`, `hypothesis`: Testing exercises and property-based testing
 - `matplotlib`, `seaborn`, `bokeh`, `wordcloud`: Charts and visualizations
 - `numpy`, `pandas`, `sympy`, `simpy`, `scikit-image`, `geopy`, `rdkit`: Scientific computing
 - `tensorflow`, `qiskit`, `qiskit-aer`: Neural networks and quantum computing (simulated)
@@ -157,6 +157,9 @@ The statements are adapted and translated from:
 - Classic algorithms list (arrays, basics, searching, sorting and graphs)
 - [retosdeprogramacion.com](https://retosdeprogramacion.com/ejercicios) (exercises, roadmap and mini challenges), Brais Moure (MoureDev); [PYnative Python exercises](https://pynative.com/python-exercises-with-solutions/); [Python exercises for beginners](https://machinelearningplus.com/python/python-exercises-beginner/), Machine Learning Plus; and [50 ejemplos de Python](https://github.com/ellibrodepython/50-ejemplos-python), El Libro De Python. Only the ideas are taken: statements and data are written from scratch
 - *Python para todos*, Raúl González Duque ([CC BY 2.5 ES](https://creativecommons.org/licenses/by/2.5/es/)): topics for serialization, sockets and thread synchronization
+- [Ejercicios de Python](https://github.com/jaalonso/Ejercicios-Python), José A. Alonso Jiménez (GPL-3.0), and [Edabit Python challenges](https://edabit.com/es/challenges/python3): only the ideas are taken; statements, data and solutions are written from scratch
+- [Curso de Python científico](https://github.com/hmedrano/curso-python-cientifico), Favio Medrano (MIT), and [Project Pythia AtmosCol-2023](https://projectpythia.org/AtmosCol-2023/) (Apache-2.0): NumPy, pandas and scientific plotting techniques with generated data
+- Kaggle notebooks [Ejercicios pandas](https://www.kaggle.com/code/gastonocana/ejercicios-pandas) and [Análisis exploratorio de datos con Python](https://www.kaggle.com/code/abonaplata/analisis-exploratorio-de-datos-con-python) (after Pedro Marcelino's House Prices EDA). The EDA notebook downloads the [Ames Housing dataset](https://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock (*Journal of Statistics Education*, 2011)
 - [LangChain documentation](https://docs.langchain.com/) and [RAG From Scratch](https://github.com/langchain-ai/rag-from-scratch), LangChain (the RAG notebooks follow its parts 1 to 18)
 
 All solutions are original.
