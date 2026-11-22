@@ -1,6 +1,6 @@
 # Logic Programming Exercises
 
-- 1193 Python programming and logic exercises in 152 notebooks, solved and explained in Spanish
+- 1438 Python programming and logic exercises in 171 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
 - Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit, LangChain...)
@@ -13,7 +13,7 @@
 
 - Python 3.10 or newer
 - `pip` (Python package manager)
-- Internet connection for the notebooks that download data
+- Internet connection for the notebooks that download data and for `29-apis-publicas`
 
 ## Installation
 
@@ -48,24 +48,24 @@ logic-programming-exercises/
 │   └── cover.webp
 ├── src/
 │   ├── 01-tipos-datos-simples/      # Variables, operators, expressions, binary representation
-│   ├── 02-cadenas/                  # Strings
+│   ├── 02-cadenas/                  # Strings and string challenges (Morse, T9, spreadsheet columns, output formatting)
 │   ├── 03-condicionales/            # if / elif / else
-│   ├── 04-bucles/                   # for / while, traces, simulations and games
-│   ├── 05-listas-tuplas-conjuntos/  # Lists, tuples, sets, matrices, cellular automata
-│   ├── 06-diccionarios/             # Dictionaries, collections, nested dictionaries
+│   ├── 04-bucles/                   # for / while, traces, simulations, games, number series and text patterns
+│   ├── 05-listas-tuplas-conjuntos/  # Lists, tuples, sets, matrices, cellular automata, set methods and relations
+│   ├── 06-diccionarios/             # Dictionaries, collections (Counter, defaultdict, OrderedDict, deque, namedtuple), nested dictionaries
 │   ├── 07-funciones/                # Functions, applications, board games (chess, checkers...) and exceptions
-│   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async, iterators, generators, decorators
+│   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async, iterators, generators, decorators, partial, itertools, coroutines
 │   ├── 09-recursividad/             # Recursion, fractals and backtracking
-│   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing, concurrency, enum, pathlib, argparse, json, logging
-│   ├── 11-ficheros/                 # Text, CSV, JSON, SQLite, internet files, interpreter, One Billion Row Challenge
-│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python
+│   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing, concurrency, thread synchronization, enum, pathlib, argparse, json, logging, pickle, sockets, os/sys, math/statistics
+│   ├── 11-ficheros/                 # Text, CSV, JSON, XML, ZIP, SQLite, internet files, interpreter, One Billion Row Challenge
+│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python, design patterns and SOLID
 │   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy, divide and conquer, modular arithmetic and primes
 │   ├── 14-busqueda/                 # Linear, binary, DFS, BFS
 │   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap, shell, radix, bucket, sorted
 │   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP, two pointers, sliding window, prefix sums, bits, Rabin-Karp, Z, Manacher
 │   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, A*, bipartite, SCC, bridges, Eulerian path, max flow
 │   ├── 18-programacion-dinamica/    # Subset sum, knapsack, coin change, LCS, Levenshtein, LIS, rod cutting, partition, palindromes, matrix chain, grid paths, TSP
-│   ├── 19-numpy-pandas/             # NumPy and pandas (merge, pivot, cleaning, time series)
+│   ├── 19-numpy-pandas/             # NumPy and pandas (merge, pivot, cleaning, time series, NumPy practice)
 │   ├── 20-visualizacion/            # Matplotlib, seaborn, wordcloud, yfinance, bokeh
 │   ├── 21-web-y-apis/               # requests, BeautifulSoup, Flask, MongoDB (mongomock), FastAPI
 │   ├── 22-librerias-cientificas/    # sympy, geopy, rdkit, simpy, scikit-image, qiskit, tensorflow
@@ -73,8 +73,9 @@ logic-programming-exercises/
 │   ├── 24-bases-de-datos/           # SQLite and SQL, SQLAlchemy
 │   ├── 25-machine-learning/         # scikit-learn: regression, classification, clustering and validation
 │   ├── 26-simulacion-y-probabilidad/ # Monte Carlo, random walks, Markov chains
-│   ├── 27-retos/                    # Interview problems, puzzles and a task manager project
-│   └── 28-langchain/                # LangChain and LangSmith: LCEL, tools, agents, RAG from scratch, LangGraph, tracing and evaluation
+│   ├── 27-retos/                    # Katas, interview problems, puzzles, games and simulations, a task manager and simulation projects
+│   ├── 28-langchain/                # LangChain and LangSmith: LCEL, tools, agents, RAG from scratch, LangGraph, tracing and evaluation
+│   └── 29-apis-publicas/            # Keyless public APIs with requests: httpbin, JSONPlaceholder, PokéAPI, GitHub, Open-Meteo, World Bank, Frankfurter, Nager.Date, EMSC, Wikipedia, Open Library
 ├── scripts/
 │   ├── index.py                     # Generates INDEX.md
 │   ├── statements.py                # Copies the notebooks without solutions into statements/
@@ -119,7 +120,7 @@ jupyter notebook src/01-tipos-datos-simples/01-basico.ipynb
 
 2. Run the cells sequentially. Keep in mind that:
    - Some exercises ask for keyboard input with `input()`.
-   - Some notebooks download data from the internet.
+   - Some notebooks download data from the internet. The `29-apis-publicas` notebooks call live public APIs that need no API key: their saved outputs are a snapshot of the day they were run.
    - Files generated by the notebooks are saved next to them and ignored by Git (only `.ipynb` files are versioned in `src`).
    - Training the neural network (`22-librerias-cientificas/02-redes-neuronales`) and building executables (`23-herramientas`) take a few minutes.
    - Desktop programs (PyQt6, pygame) and web apps (Flask, Streamlit, Bokeh) are saved as scripts and tested without opening windows or servers; run them from the terminal to try them.
@@ -154,6 +155,8 @@ The statements are adapted and translated from:
 - [Top 50 Ejemplos y Ejercicios](https://ellibrodepython.com/ejemplos-ejercicios-python), El Libro De Python
 - [30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python), Asabeneh Yetayeh. Data files are downloaded from its repository.
 - Classic algorithms list (arrays, basics, searching, sorting and graphs)
+- [retosdeprogramacion.com](https://retosdeprogramacion.com/ejercicios) (exercises, roadmap and mini challenges), Brais Moure (MoureDev); [PYnative Python exercises](https://pynative.com/python-exercises-with-solutions/); [Python exercises for beginners](https://machinelearningplus.com/python/python-exercises-beginner/), Machine Learning Plus; and [50 ejemplos de Python](https://github.com/ellibrodepython/50-ejemplos-python), El Libro De Python. Only the ideas are taken: statements and data are written from scratch
+- *Python para todos*, Raúl González Duque ([CC BY 2.5 ES](https://creativecommons.org/licenses/by/2.5/es/)): topics for serialization, sockets and thread synchronization
 - [LangChain documentation](https://docs.langchain.com/) and [RAG From Scratch](https://github.com/langchain-ai/rag-from-scratch), LangChain (the RAG notebooks follow its parts 1 to 18)
 
 All solutions are original.

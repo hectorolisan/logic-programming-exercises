@@ -36,6 +36,7 @@ TEMAS = {
     "26-simulacion-y-probabilidad": "Simulación y probabilidad",
     "27-retos": "Retos",
     "28-langchain": "LangChain y LangSmith",
+    "29-apis-publicas": "APIs públicas",
 }
 NIVELES = ("Básico", "Intermedio", "Avanzado")
 

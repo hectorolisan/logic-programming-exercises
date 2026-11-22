@@ -5,7 +5,7 @@ This file provides guidance to coding agents when working with code in this repo
 ## Project
 
 Python programming and logic exercises, solved and explained in Spanish, as Jupyter notebooks in `src/`.
-There are 28 topic folders (`01-tipos-datos-simples` … `28-langchain`), ordered from easiest to hardest, and
+There are 29 topic folders (`01-tipos-datos-simples` … `29-apis-publicas`), ordered from easiest to hardest, and
 each folder holds notebooks numbered by difficulty. The notebooks are also published as a static website
 (MkDocs + Material + mkdocs-jupyter) on GitHub Pages. There is no package or app: the deliverables are the
 notebooks, `INDEX.md` and the website.
@@ -38,6 +38,9 @@ does not execute the notebooks: it renders the outputs saved in them.
 - **LLM notebooks** (`28-langchain`) run offline: chat models are local `BaseChatModel` subclasses or fakes, embeddings
   use `HashingVectorizer`, LangSmith traces use `tracing_context(enabled="local")` and evaluations
   `upload_results=False`. Never require API keys.
+- **Public API notebooks** (`29-apis-publicas`) call live keyless APIs through a `requests.Session` with a generic
+  `User-Agent` and a timeout. Prefer closed past periods so outputs stay stable, and assert on the shape of the data,
+  not on live values. Never send personal data or require API keys.
 - **Generated files** (data, modules written with `%%writefile`, outputs) live next to the notebook and are
   gitignored: only `.ipynb` is versioned in `src/`. On Windows, multiprocessing uses spawn, so worker functions must
   be in a module written with `%%writefile`, not defined in the notebook.

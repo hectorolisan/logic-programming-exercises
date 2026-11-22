@@ -1,6 +1,6 @@
 # Índice de ejercicios
 
-1193 ejercicios en 152 notebooks. Generado con `python scripts/index.py`.
+1438 ejercicios en 171 notebooks. Generado con `python scripts/index.py`.
 
 La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) o, si no lo indica, de su posición dentro del tema.
 
@@ -19,7 +19,8 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Básico](src/02-cadenas/01-basico.ipynb) | Básico | 15 |
 | [Intermedio](src/02-cadenas/02-intermedio.ipynb) | Intermedio | 13 |
 | [Avanzado](src/02-cadenas/03-avanzado.ipynb) | Avanzado | 10 |
-| [Preguntas y variantes](src/02-cadenas/04-preguntas-y-variantes.ipynb) | Avanzado | 18 |
+| [Preguntas y variantes](src/02-cadenas/04-preguntas-y-variantes.ipynb) | Intermedio | 18 |
+| [Retos de cadenas](src/02-cadenas/05-retos-de-cadenas.ipynb) | Avanzado | 16 |
 
 ## Condicionales
 
@@ -38,6 +39,7 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Avanzado](src/04-bucles/03-avanzado.ipynb) | Avanzado | 4 |
 | [Trazas y variantes](src/04-bucles/04-trazas-y-variantes.ipynb) | Intermedio | 15 |
 | [Simulaciones y juegos](src/04-bucles/05-simulaciones-y-juegos.ipynb) | Avanzado | 4 |
+| [Números y patrones](src/04-bucles/06-numeros-y-patrones.ipynb) | Avanzado | 16 |
 
 ## Listas, tuplas y conjuntos
 
@@ -47,8 +49,9 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Tuplas y conjuntos](src/05-listas-tuplas-conjuntos/02-tuplas-conjuntos.ipynb) | Básico | 6 |
 | [Intermedio](src/05-listas-tuplas-conjuntos/03-intermedio.ipynb) | Intermedio | 10 |
 | [Avanzado](src/05-listas-tuplas-conjuntos/04-avanzado.ipynb) | Avanzado | 8 |
-| [Preguntas y variantes](src/05-listas-tuplas-conjuntos/05-preguntas-y-variantes.ipynb) | Avanzado | 16 |
+| [Preguntas y variantes](src/05-listas-tuplas-conjuntos/05-preguntas-y-variantes.ipynb) | Intermedio | 16 |
 | [Autómatas celulares](src/05-listas-tuplas-conjuntos/06-automatas-celulares.ipynb) | Avanzado | 5 |
+| [Más listas y conjuntos](src/05-listas-tuplas-conjuntos/07-mas-listas-y-conjuntos.ipynb) | Avanzado | 12 |
 
 ## Diccionarios
 
@@ -57,7 +60,8 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Básico](src/06-diccionarios/01-basico.ipynb) | Básico | 7 |
 | [Intermedio](src/06-diccionarios/02-intermedio.ipynb) | Intermedio | 6 |
 | [Avanzado](src/06-diccionarios/03-avanzado.ipynb) | Avanzado | 12 |
-| [Preguntas y variantes](src/06-diccionarios/04-preguntas-y-variantes.ipynb) | Avanzado | 15 |
+| [Preguntas y variantes](src/06-diccionarios/04-preguntas-y-variantes.ipynb) | Intermedio | 15 |
+| [Más colecciones](src/06-diccionarios/05-mas-colecciones.ipynb) | Avanzado | 10 |
 
 ## Funciones
 
@@ -77,7 +81,8 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | --- | --- | ---: |
 | [Básico](src/08-programacion-funcional/01-basico.ipynb) | Básico | 12 |
 | [Avanzado](src/08-programacion-funcional/02-avanzado.ipynb) | Avanzado | 6 |
-| [Iteradores, generadores y decoradores](src/08-programacion-funcional/03-iteradores-generadores-decoradores.ipynb) | Avanzado | 12 |
+| [Iteradores, generadores y decoradores](src/08-programacion-funcional/03-iteradores-generadores-decoradores.ipynb) | Intermedio | 12 |
+| [Herramientas funcionales](src/08-programacion-funcional/04-herramientas-funcionales.ipynb) | Avanzado | 17 |
 
 ## Recursividad
 
@@ -94,11 +99,16 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | --- | --- | ---: |
 | [`random`](src/10-modulos-estandar/01-random.ipynb) | Básico | 12 |
 | [`datetime`](src/10-modulos-estandar/02-fechas.ipynb) | Básico | 11 |
-| [Expresiones regulares (`re`)](src/10-modulos-estandar/03-expresiones-regulares.ipynb) | Básico | 12 |
-| [Módulos propios](src/10-modulos-estandar/04-modulos-propios.ipynb) | Intermedio | 8 |
+| [Expresiones regulares (`re`)](src/10-modulos-estandar/03-expresiones-regulares.ipynb) | Básico | 16 |
+| [Módulos propios](src/10-modulos-estandar/04-modulos-propios.ipynb) | Básico | 8 |
 | [Testing](src/10-modulos-estandar/05-testing.ipynb) | Intermedio | 8 |
-| [Concurrencia](src/10-modulos-estandar/06-concurrencia.ipynb) | Avanzado | 9 |
-| [Más módulos](src/10-modulos-estandar/07-mas-modulos.ipynb) | Avanzado | 12 |
+| [Concurrencia](src/10-modulos-estandar/06-concurrencia.ipynb) | Intermedio | 9 |
+| [Más módulos](src/10-modulos-estandar/07-mas-modulos.ipynb) | Intermedio | 12 |
+| [Serialización y red](src/10-modulos-estandar/08-serializacion-y-red.ipynb) | Intermedio | 10 |
+| [Sincronización de hilos](src/10-modulos-estandar/09-sincronizacion-de-hilos.ipynb) | Avanzado | 10 |
+| [os y sys](src/10-modulos-estandar/10-os-y-sys.ipynb) | Avanzado | 13 |
+| [math y statistics](src/10-modulos-estandar/11-math-y-estadistica.ipynb) | Avanzado | 15 |
+| [Más fechas](src/10-modulos-estandar/12-mas-fechas.ipynb) | Avanzado | 13 |
 
 ## Ficheros
 
@@ -108,8 +118,9 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Intermedio](src/11-ficheros/02-intermedio.ipynb) | Intermedio | 5 |
 | [Avanzado](src/11-ficheros/03-avanzado.ipynb) | Avanzado | 7 |
 | [Utilidades de texto](src/11-ficheros/04-utilidades-de-texto.ipynb) | Intermedio | 10 |
-| [Agenda, plantillas e intérprete](src/11-ficheros/05-agenda-plantillas-e-interprete.ipynb) | Avanzado | 7 |
+| [Agenda, plantillas e intérprete](src/11-ficheros/05-agenda-plantillas-e-interprete.ipynb) | Intermedio | 7 |
 | [Mil millones de filas](src/11-ficheros/06-mil-millones-de-filas.ipynb) | Avanzado | 6 |
+| [XML, ZIP y utilidades](src/11-ficheros/07-xml-zip-y-utilidades.ipynb) | Avanzado | 15 |
 
 ## Clases y objetos
 
@@ -123,6 +134,7 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Estructuras jerárquicas](src/12-clases-objetos/06-estructuras-jerarquicas.ipynb) | Intermedio | 12 |
 | [Python moderno](src/12-clases-objetos/07-python-moderno.ipynb) | Avanzado | 12 |
 | [Estructuras avanzadas](src/12-clases-objetos/08-estructuras-avanzadas.ipynb) | Avanzado | 12 |
+| [Patrones y principios SOLID](src/12-clases-objetos/09-patrones-y-solid.ipynb) | Avanzado | 13 |
 
 ## Algoritmos básicos
 
@@ -223,6 +235,7 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Series y DataFrames](src/19-numpy-pandas/02-pandas-series-dataframes.ipynb) | Básico | 5 |
 | [Análisis de ficheros](src/19-numpy-pandas/03-pandas-ficheros.ipynb) | Intermedio | 5 |
 | [pandas avanzado](src/19-numpy-pandas/04-pandas-avanzado.ipynb) | Avanzado | 11 |
+| [Práctica con NumPy](src/19-numpy-pandas/05-numpy-practica.ipynb) | Avanzado | 17 |
 
 ## Visualización
 
@@ -282,9 +295,12 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 
 | Notebook | Dificultad | Ejercicios |
 | --- | --- | ---: |
-| [Problemas de entrevista](src/27-retos/01-problemas-de-entrevista.ipynb) | Básico | 14 |
-| [Puzles](src/27-retos/02-puzles.ipynb) | Intermedio | 12 |
-| [Proyecto gestor de tareas](src/27-retos/03-proyecto-gestor-de-tareas.ipynb) | Avanzado | 9 |
+| [Katas](src/27-retos/01-katas.ipynb) | Básico | 15 |
+| [Problemas de entrevista](src/27-retos/02-problemas-de-entrevista.ipynb) | Básico | 14 |
+| [Puzles](src/27-retos/03-puzles.ipynb) | Intermedio | 12 |
+| [Juegos y simulaciones](src/27-retos/04-juegos-y-simulaciones.ipynb) | Intermedio | 11 |
+| [Proyecto gestor de tareas](src/27-retos/05-proyecto-gestor-de-tareas.ipynb) | Avanzado | 9 |
+| [Proyectos de simulación](src/27-retos/06-proyectos-de-simulacion.ipynb) | Avanzado | 12 |
 
 ## LangChain y LangSmith
 
@@ -295,3 +311,11 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [RAG desde cero](src/28-langchain/03-rag-desde-cero.ipynb) | Intermedio | 11 |
 | [RAG avanzado](src/28-langchain/04-rag-avanzado.ipynb) | Avanzado | 10 |
 | [Trazas y evaluación con LangSmith](src/28-langchain/05-langsmith.ipynb) | Avanzado | 12 |
+
+## APIs públicas
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Peticiones HTTP](src/29-apis-publicas/01-peticiones-http.ipynb) | Básico | 10 |
+| [Tiempo y datos abiertos](src/29-apis-publicas/02-tiempo-y-datos-abiertos.ipynb) | Intermedio | 8 |
+| [Conocimiento y ocio](src/29-apis-publicas/03-conocimiento-y-ocio.ipynb) | Avanzado | 8 |
