@@ -41,3 +41,4 @@ langchain
 langchain-text-splitters
 langgraph
 langsmith
+hypothesis
