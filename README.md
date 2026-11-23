@@ -1,6 +1,6 @@
 # Logic Programming Exercises
 
-- 1636 Python programming and logic exercises in 186 notebooks, solved and explained in Spanish
+- 1684 Python programming and logic exercises in 189 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
 - Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit, LangChain...)
@@ -58,8 +58,8 @@ logic-programming-exercises/
 │   ├── 09-recursividad/             # Recursion, fractals and backtracking
 │   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing, concurrency, thread synchronization, enum, pathlib, argparse, json, logging, pickle, sockets, os/sys, math/statistics
 │   ├── 11-ficheros/                 # Text, CSV, JSON, XML, ZIP, SQLite, internet files, interpreter, One Billion Row Challenge
-│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python, design patterns and SOLID, algebraic types, polynomials
-│   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy, divide and conquer, modular arithmetic and primes, special numbers and sequences, numerical methods
+│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python, design patterns and SOLID, algebraic types, polynomials, abstract data types (stacks, queues, sets)
+│   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy, divide and conquer, modular arithmetic and primes, special numbers and sequences, numerical methods, number miscellany
 │   ├── 14-busqueda/                 # Linear, binary, DFS, BFS, state-space search (hill climbing, best-first, 8-puzzle)
 │   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap, shell, radix, bucket, sorted
 │   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP, two pointers, sliding window, prefix sums, bits, Rabin-Karp, Z, Manacher
@@ -157,7 +157,7 @@ The statements are adapted and translated from:
 - Classic algorithms list (arrays, basics, searching, sorting and graphs)
 - [retosdeprogramacion.com](https://retosdeprogramacion.com/ejercicios) (exercises, roadmap and mini challenges), Brais Moure (MoureDev); [PYnative Python exercises](https://pynative.com/python-exercises-with-solutions/); [Python exercises for beginners](https://machinelearningplus.com/python/python-exercises-beginner/), Machine Learning Plus; and [50 ejemplos de Python](https://github.com/ellibrodepython/50-ejemplos-python), El Libro De Python. Only the ideas are taken: statements and data are written from scratch
 - *Python para todos*, Raúl González Duque ([CC BY 2.5 ES](https://creativecommons.org/licenses/by/2.5/es/)): topics for serialization, sockets and thread synchronization
-- [Ejercicios de Python](https://github.com/jaalonso/Ejercicios-Python), José A. Alonso Jiménez (GPL-3.0), and [Edabit Python challenges](https://edabit.com/es/challenges/python3): only the ideas are taken; statements, data and solutions are written from scratch
+- *Ejercicios de programación con Python* (book, [CC BY-NC-SA 2.5 ES](https://creativecommons.org/licenses/by-nc-sa/2.5/es/)) and its [code repository](https://github.com/jaalonso/Ejercicios-Python) (GPL-3.0), José A. Alonso Jiménez, and [Edabit Python challenges](https://edabit.com/es/challenges/python3): only the ideas are taken; statements, data and solutions are written from scratch
 - [Curso de Python científico](https://github.com/hmedrano/curso-python-cientifico), Favio Medrano (MIT), and [Project Pythia AtmosCol-2023](https://projectpythia.org/AtmosCol-2023/) (Apache-2.0): NumPy, pandas and scientific plotting techniques with generated data
 - Kaggle notebooks [Ejercicios pandas](https://www.kaggle.com/code/gastonocana/ejercicios-pandas) and [Análisis exploratorio de datos con Python](https://www.kaggle.com/code/abonaplata/analisis-exploratorio-de-datos-con-python) (after Pedro Marcelino's House Prices EDA). The EDA notebook downloads the [Ames Housing dataset](https://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock (*Journal of Statistics Education*, 2011)
 - [LangChain documentation](https://docs.langchain.com/) and [RAG From Scratch](https://github.com/langchain-ai/rag-from-scratch), LangChain (the RAG notebooks follow its parts 1 to 18)

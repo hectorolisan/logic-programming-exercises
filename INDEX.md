@@ -1,6 +1,6 @@
 # Índice de ejercicios
 
-1636 ejercicios en 186 notebooks. Generado con `python scripts/index.py`.
+1684 ejercicios en 189 notebooks. Generado con `python scripts/index.py`.
 
 La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) o, si no lo indica, de su posición dentro del tema.
 
@@ -133,13 +133,15 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Registros](src/12-clases-objetos/02-registros.ipynb) | Básico | 6 |
 | [Fechas](src/12-clases-objetos/03-fechas.ipynb) | Básico | 9 |
 | [Videoclub](src/12-clases-objetos/04-videoclub.ipynb) | Básico | 5 |
-| [Estructuras lineales](src/12-clases-objetos/05-estructuras-lineales.ipynb) | Intermedio | 10 |
+| [Estructuras lineales](src/12-clases-objetos/05-estructuras-lineales.ipynb) | Básico | 10 |
 | [Estructuras jerárquicas](src/12-clases-objetos/06-estructuras-jerarquicas.ipynb) | Intermedio | 12 |
 | [Python moderno](src/12-clases-objetos/07-python-moderno.ipynb) | Intermedio | 12 |
 | [Estructuras avanzadas](src/12-clases-objetos/08-estructuras-avanzadas.ipynb) | Intermedio | 12 |
-| [Patrones y principios SOLID](src/12-clases-objetos/09-patrones-y-solid.ipynb) | Avanzado | 13 |
+| [Patrones y principios SOLID](src/12-clases-objetos/09-patrones-y-solid.ipynb) | Intermedio | 13 |
 | [Tipos algebraicos](src/12-clases-objetos/10-tipos-algebraicos.ipynb) | Avanzado | 14 |
 | [Polinomios](src/12-clases-objetos/11-polinomios.ipynb) | Avanzado | 13 |
+| [TAD de pilas y colas](src/12-clases-objetos/12-tad-pilas-y-colas.ipynb) | Avanzado | 16 |
+| [TAD de conjuntos](src/12-clases-objetos/13-tad-conjuntos.ipynb) | Avanzado | 14 |
 
 ## Algoritmos básicos
 
@@ -148,12 +150,13 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Complejidad algorítmica](src/13-algoritmos-basicos/01-complejidad.ipynb) | Básico | 9 |
 | [Algoritmo de Euclides](src/13-algoritmos-basicos/02-euclides.ipynb) | Básico | 6 |
 | [Union-Find (conjuntos disjuntos)](src/13-algoritmos-basicos/03-union-find.ipynb) | Básico | 6 |
-| [Codificación de Huffman](src/13-algoritmos-basicos/04-huffman.ipynb) | Intermedio | 5 |
+| [Codificación de Huffman](src/13-algoritmos-basicos/04-huffman.ipynb) | Básico | 5 |
 | [Algoritmos voraces](src/13-algoritmos-basicos/05-algoritmos-voraces.ipynb) | Intermedio | 9 |
 | [Divide y vencerás](src/13-algoritmos-basicos/06-divide-y-venceras.ipynb) | Intermedio | 5 |
-| [Aritmética modular y primos](src/13-algoritmos-basicos/07-aritmetica-modular-y-primos.ipynb) | Avanzado | 6 |
+| [Aritmética modular y primos](src/13-algoritmos-basicos/07-aritmetica-modular-y-primos.ipynb) | Intermedio | 6 |
 | [Números especiales y sucesiones](src/13-algoritmos-basicos/08-numeros-especiales-y-sucesiones.ipynb) | Avanzado | 15 |
 | [Cálculo numérico](src/13-algoritmos-basicos/09-calculo-numerico.ipynb) | Avanzado | 13 |
+| [Miscelánea numérica](src/13-algoritmos-basicos/10-miscelanea-numerica.ipynb) | Avanzado | 18 |
 
 ## Búsqueda
 
