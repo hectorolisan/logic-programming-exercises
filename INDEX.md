@@ -1,6 +1,6 @@
 # Índice de ejercicios
 
-1684 ejercicios en 189 notebooks. Generado con `python scripts/index.py`.
+2116 ejercicios en 224 notebooks. Generado con `python scripts/index.py`.
 
 La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) o, si no lo indica, de su posición dentro del tema.
 
@@ -104,14 +104,15 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [`datetime`](src/10-modulos-estandar/02-fechas.ipynb) | Básico | 11 |
 | [Expresiones regulares (`re`)](src/10-modulos-estandar/03-expresiones-regulares.ipynb) | Básico | 16 |
 | [Módulos propios](src/10-modulos-estandar/04-modulos-propios.ipynb) | Básico | 8 |
-| [Testing](src/10-modulos-estandar/05-testing.ipynb) | Intermedio | 8 |
+| [Testing](src/10-modulos-estandar/05-testing.ipynb) | Básico | 8 |
 | [Concurrencia](src/10-modulos-estandar/06-concurrencia.ipynb) | Intermedio | 9 |
 | [Más módulos](src/10-modulos-estandar/07-mas-modulos.ipynb) | Intermedio | 12 |
 | [Serialización y red](src/10-modulos-estandar/08-serializacion-y-red.ipynb) | Intermedio | 10 |
-| [Sincronización de hilos](src/10-modulos-estandar/09-sincronizacion-de-hilos.ipynb) | Avanzado | 10 |
+| [Sincronización de hilos](src/10-modulos-estandar/09-sincronizacion-de-hilos.ipynb) | Intermedio | 10 |
 | [os y sys](src/10-modulos-estandar/10-os-y-sys.ipynb) | Avanzado | 13 |
 | [math y statistics](src/10-modulos-estandar/11-math-y-estadistica.ipynb) | Avanzado | 15 |
 | [Más fechas](src/10-modulos-estandar/12-mas-fechas.ipynb) | Avanzado | 13 |
+| [asyncio y utilidades](src/10-modulos-estandar/13-asyncio-y-utilidades.ipynb) | Avanzado | 14 |
 
 ## Ficheros
 
@@ -122,8 +123,9 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Avanzado](src/11-ficheros/03-avanzado.ipynb) | Avanzado | 7 |
 | [Utilidades de texto](src/11-ficheros/04-utilidades-de-texto.ipynb) | Intermedio | 10 |
 | [Agenda, plantillas e intérprete](src/11-ficheros/05-agenda-plantillas-e-interprete.ipynb) | Intermedio | 7 |
-| [Mil millones de filas](src/11-ficheros/06-mil-millones-de-filas.ipynb) | Avanzado | 6 |
+| [Mil millones de filas](src/11-ficheros/06-mil-millones-de-filas.ipynb) | Intermedio | 6 |
 | [XML, ZIP y utilidades](src/11-ficheros/07-xml-zip-y-utilidades.ipynb) | Avanzado | 15 |
+| [Compresión, configuración y ficheros grandes](src/11-ficheros/08-compresion-configuracion-y-ficheros-grandes.ipynb) | Avanzado | 13 |
 
 ## Clases y objetos
 
@@ -138,10 +140,11 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Python moderno](src/12-clases-objetos/07-python-moderno.ipynb) | Intermedio | 12 |
 | [Estructuras avanzadas](src/12-clases-objetos/08-estructuras-avanzadas.ipynb) | Intermedio | 12 |
 | [Patrones y principios SOLID](src/12-clases-objetos/09-patrones-y-solid.ipynb) | Intermedio | 13 |
-| [Tipos algebraicos](src/12-clases-objetos/10-tipos-algebraicos.ipynb) | Avanzado | 14 |
+| [Tipos algebraicos](src/12-clases-objetos/10-tipos-algebraicos.ipynb) | Intermedio | 14 |
 | [Polinomios](src/12-clases-objetos/11-polinomios.ipynb) | Avanzado | 13 |
 | [TAD de pilas y colas](src/12-clases-objetos/12-tad-pilas-y-colas.ipynb) | Avanzado | 16 |
 | [TAD de conjuntos](src/12-clases-objetos/13-tad-conjuntos.ipynb) | Avanzado | 14 |
+| [Descriptores y metaclases](src/12-clases-objetos/14-descriptores-y-metaclases.ipynb) | Avanzado | 13 |
 
 ## Algoritmos básicos
 
@@ -167,6 +170,7 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Búsqueda en profundidad (DFS)](src/14-busqueda/03-busqueda-en-profundidad.ipynb) | Intermedio | 7 |
 | [Búsqueda en anchura (BFS)](src/14-busqueda/04-busqueda-en-anchura.ipynb) | Intermedio | 7 |
 | [Búsqueda en espacios de estados](src/14-busqueda/05-espacio-de-estados.ipynb) | Avanzado | 14 |
+| [Búsquedas avanzadas](src/14-busqueda/06-busquedas-avanzadas.ipynb) | Avanzado | 13 |
 
 ## Ordenación
 
@@ -183,6 +187,7 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Radix sort](src/15-ordenacion/09-radix-sort.ipynb) | Avanzado | 4 |
 | [Bucket sort](src/15-ordenacion/10-bucket-sort.ipynb) | Avanzado | 4 |
 | [Ordenar con `sorted`](src/15-ordenacion/11-ordenar-con-sorted.ipynb) | Avanzado | 6 |
+| [Mezcla de k listas y Timsort](src/15-ordenacion/12-mezcla-de-k-listas-y-timsort.ipynb) | Avanzado | 12 |
 
 ## Arrays
 
@@ -193,14 +198,17 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Algoritmo de Kadane](src/16-arrays/03-kadane.ipynb) | Básico | 5 |
 | [Detección de ciclos de Floyd (liebre y tortuga)](src/16-arrays/04-floyd-deteccion-ciclos.ipynb) | Básico | 5 |
 | [Quick Select](src/16-arrays/05-quick-select.ipynb) | Básico | 5 |
-| [Algoritmo KMP (Knuth-Morris-Pratt)](src/16-arrays/06-kmp.ipynb) | Intermedio | 5 |
+| [Algoritmo KMP (Knuth-Morris-Pratt)](src/16-arrays/06-kmp.ipynb) | Básico | 5 |
 | [Dos punteros](src/16-arrays/07-dos-punteros.ipynb) | Intermedio | 5 |
 | [Ventana deslizante](src/16-arrays/08-ventana-deslizante.ipynb) | Intermedio | 5 |
 | [Sumas de prefijos](src/16-arrays/09-sumas-de-prefijos.ipynb) | Intermedio | 5 |
-| [Operaciones de bits](src/16-arrays/10-operaciones-de-bits.ipynb) | Avanzado | 6 |
-| [Algoritmo de Rabin-Karp](src/16-arrays/11-rabin-karp.ipynb) | Avanzado | 5 |
+| [Operaciones de bits](src/16-arrays/10-operaciones-de-bits.ipynb) | Intermedio | 6 |
+| [Algoritmo de Rabin-Karp](src/16-arrays/11-rabin-karp.ipynb) | Intermedio | 5 |
 | [Algoritmo Z](src/16-arrays/12-algoritmo-z.ipynb) | Avanzado | 5 |
 | [Algoritmo de Manacher](src/16-arrays/13-manacher.ipynb) | Avanzado | 4 |
+| [Pila monótona](src/16-arrays/14-pila-monotona.ipynb) | Avanzado | 11 |
+| [Arrays de diferencias y sumas de prefijos 2D](src/16-arrays/15-arrays-de-diferencias-y-prefijos-2d.ipynb) | Avanzado | 11 |
+| [Sparse table](src/16-arrays/16-sparse-table.ipynb) | Avanzado | 10 |
 
 ## Grafos
 
@@ -211,16 +219,19 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Ordenación topológica](src/17-grafos/03-orden-topologico.ipynb) | Básico | 4 |
 | [Algoritmo de Dijkstra](src/17-grafos/04-dijkstra.ipynb) | Básico | 4 |
 | [Algoritmo de Bellman-Ford](src/17-grafos/05-bellman-ford.ipynb) | Básico | 4 |
-| [Algoritmo de Floyd-Warshall](src/17-grafos/06-floyd-warshall.ipynb) | Intermedio | 4 |
+| [Algoritmo de Floyd-Warshall](src/17-grafos/06-floyd-warshall.ipynb) | Básico | 4 |
 | [Algoritmo de Kruskal](src/17-grafos/07-kruskal.ipynb) | Intermedio | 4 |
 | [Algoritmo de Prim](src/17-grafos/08-prim.ipynb) | Intermedio | 5 |
 | [Algoritmo A*](src/17-grafos/09-a-estrella.ipynb) | Intermedio | 5 |
 | [Grafo bipartito](src/17-grafos/10-grafo-bipartito.ipynb) | Intermedio | 4 |
-| [Componentes fuertemente conexas](src/17-grafos/11-componentes-fuertemente-conexas.ipynb) | Avanzado | 4 |
-| [Puentes y puntos de articulación](src/17-grafos/12-puentes-y-puntos-de-articulacion.ipynb) | Avanzado | 4 |
+| [Componentes fuertemente conexas](src/17-grafos/11-componentes-fuertemente-conexas.ipynb) | Intermedio | 4 |
+| [Puentes y puntos de articulación](src/17-grafos/12-puentes-y-puntos-de-articulacion.ipynb) | Intermedio | 4 |
 | [Camino euleriano](src/17-grafos/13-camino-euleriano.ipynb) | Avanzado | 4 |
 | [Flujo máximo](src/17-grafos/14-flujo-maximo.ipynb) | Avanzado | 4 |
 | [Propiedades de grafos](src/17-grafos/15-propiedades-de-grafos.ipynb) | Avanzado | 13 |
+| [Emparejamiento bipartito](src/17-grafos/16-emparejamiento-bipartito.ipynb) | Avanzado | 11 |
+| [Ancestro común más bajo](src/17-grafos/17-ancestro-comun.ipynb) | Avanzado | 10 |
+| [Algoritmo de Borůvka](src/17-grafos/18-boruvka.ipynb) | Avanzado | 10 |
 
 ## Programación dinámica
 
@@ -231,14 +242,17 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Cambio de monedas](src/18-programacion-dinamica/03-cambio-de-monedas.ipynb) | Básico | 5 |
 | [Subsecuencia común más larga (LCS)](src/18-programacion-dinamica/04-subsecuencia-comun-mas-larga.ipynb) | Básico | 4 |
 | [Distancia de Levenshtein](src/18-programacion-dinamica/05-distancia-de-levenshtein.ipynb) | Básico | 4 |
-| [Subsecuencia creciente más larga (LIS)](src/18-programacion-dinamica/06-subsecuencia-creciente-mas-larga.ipynb) | Intermedio | 5 |
+| [Subsecuencia creciente más larga (LIS)](src/18-programacion-dinamica/06-subsecuencia-creciente-mas-larga.ipynb) | Básico | 5 |
 | [Corte de varilla](src/18-programacion-dinamica/07-corte-de-varilla.ipynb) | Intermedio | 5 |
 | [Partición en dos subconjuntos](src/18-programacion-dinamica/08-particion-en-dos-subconjuntos.ipynb) | Intermedio | 5 |
 | [Subsecuencia palindrómica más larga](src/18-programacion-dinamica/09-subsecuencia-palindromica-mas-larga.ipynb) | Intermedio | 5 |
-| [Multiplicación de matrices encadenada](src/18-programacion-dinamica/10-multiplicacion-de-matrices-encadenada.ipynb) | Avanzado | 5 |
-| [Caminos en una rejilla](src/18-programacion-dinamica/11-caminos-en-rejilla.ipynb) | Avanzado | 5 |
+| [Multiplicación de matrices encadenada](src/18-programacion-dinamica/10-multiplicacion-de-matrices-encadenada.ipynb) | Intermedio | 5 |
+| [Caminos en una rejilla](src/18-programacion-dinamica/11-caminos-en-rejilla.ipynb) | Intermedio | 5 |
 | [Viajante con máscaras de bits (Held-Karp)](src/18-programacion-dinamica/12-viajante-con-mascaras-de-bits.ipynb) | Avanzado | 5 |
 | [Problemas variados de programación dinámica](src/18-programacion-dinamica/13-problemas-variados.ipynb) | Avanzado | 10 |
+| [Programación dinámica en árboles](src/18-programacion-dinamica/14-programacion-dinamica-en-arboles.ipynb) | Avanzado | 11 |
+| [Programación dinámica de dígitos](src/18-programacion-dinamica/15-programacion-dinamica-de-digitos.ipynb) | Avanzado | 10 |
+| [Programación dinámica de intervalos](src/18-programacion-dinamica/16-programacion-dinamica-de-intervalos.ipynb) | Avanzado | 11 |
 
 ## NumPy y pandas
 
@@ -292,21 +306,26 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | --- | --- | ---: |
 | [SQLite y SQL](src/24-bases-de-datos/01-sqlite-y-sql.ipynb) | Básico | 12 |
 | [SQLAlchemy](src/24-bases-de-datos/02-sqlalchemy.ipynb) | Intermedio | 10 |
+| [SQL avanzado](src/24-bases-de-datos/03-sql-avanzado.ipynb) | Avanzado | 15 |
 
 ## Machine learning
 
 | Notebook | Dificultad | Ejercicios |
 | --- | --- | ---: |
 | [Regresión](src/25-machine-learning/01-regresion.ipynb) | Básico | 9 |
-| [Clasificación](src/25-machine-learning/02-clasificacion.ipynb) | Intermedio | 10 |
-| [Clustering y validación](src/25-machine-learning/03-clustering-y-validacion.ipynb) | Avanzado | 8 |
+| [Clasificación](src/25-machine-learning/02-clasificacion.ipynb) | Básico | 10 |
+| [Clustering y validación](src/25-machine-learning/03-clustering-y-validacion.ipynb) | Intermedio | 8 |
+| [Pipelines y preprocesado](src/25-machine-learning/04-pipelines-y-preprocesado.ipynb) | Intermedio | 13 |
+| [Reducción de dimensión y anomalías](src/25-machine-learning/05-reduccion-de-dimension-y-anomalias.ipynb) | Avanzado | 13 |
 
 ## Simulación y probabilidad
 
 | Notebook | Dificultad | Ejercicios |
 | --- | --- | ---: |
 | [Monte Carlo](src/26-simulacion-y-probabilidad/01-monte-carlo.ipynb) | Básico | 10 |
-| [Paseos aleatorios y cadenas de Markov](src/26-simulacion-y-probabilidad/02-paseos-aleatorios-y-markov.ipynb) | Intermedio | 10 |
+| [Paseos aleatorios y cadenas de Markov](src/26-simulacion-y-probabilidad/02-paseos-aleatorios-y-markov.ipynb) | Básico | 10 |
+| [Inferencia y remuestreo](src/26-simulacion-y-probabilidad/03-inferencia-y-remuestreo.ipynb) | Intermedio | 12 |
+| [Metaheurísticas](src/26-simulacion-y-probabilidad/04-metaheuristicas.ipynb) | Avanzado | 11 |
 
 ## Retos
 
@@ -337,3 +356,59 @@ La dificultad sale del nombre del notebook (`basico`, `intermedio`, `avanzado`) 
 | [Peticiones HTTP](src/29-apis-publicas/01-peticiones-http.ipynb) | Básico | 10 |
 | [Tiempo y datos abiertos](src/29-apis-publicas/02-tiempo-y-datos-abiertos.ipynb) | Intermedio | 8 |
 | [Conocimiento y ocio](src/29-apis-publicas/03-conocimiento-y-ocio.ipynb) | Avanzado | 8 |
+
+## Geometría computacional
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Primitivas y polígonos](src/30-geometria-computacional/01-primitivas-y-poligonos.ipynb) | Básico | 12 |
+| [Envolventes y barridos](src/30-geometria-computacional/02-envolventes-y-barridos.ipynb) | Intermedio | 12 |
+
+## Inteligencia artificial clásica
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Búsqueda con adversario](src/31-ia-clasica/01-busqueda-con-adversario.ipynb) | Básico | 12 |
+| [Restricciones y lógica](src/31-ia-clasica/02-restricciones-y-logica.ipynb) | Intermedio | 12 |
+
+## Intérpretes y compiladores
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Análisis léxico y sintáctico](src/32-interpretes-y-compiladores/01-analisis-lexico-y-sintactico.ipynb) | Básico | 13 |
+| [Evaluador y máquina virtual](src/32-interpretes-y-compiladores/02-evaluador-y-maquina-virtual.ipynb) | Intermedio | 14 |
+
+## Estructuras de datos probabilísticas
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Bloom, Count-Min y HyperLogLog](src/33-estructuras-probabilisticas/01-bloom-count-min-y-hyperloglog.ipynb) | Básico | 14 |
+| [MinHash, reservorio, skip list y hashing consistente](src/33-estructuras-probabilisticas/02-minhash-reservorio-skip-list-y-hashing-consistente.ipynb) | Intermedio | 14 |
+
+## Algoritmos de cadenas
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Tries y arrays de sufijos](src/34-algoritmos-de-cadenas/01-tries-y-arrays-de-sufijos.ipynb) | Básico | 13 |
+| [Autómatas, transformadas y alineamiento](src/34-algoritmos-de-cadenas/02-automatas-transformadas-y-alineamiento.ipynb) | Intermedio | 15 |
+
+## Procesamiento de señales
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Muestreo y espectro](src/35-procesamiento-de-senales/01-muestreo-y-espectro.ipynb) | Básico | 13 |
+| [Filtros y aplicaciones](src/35-procesamiento-de-senales/02-filtros-y-aplicaciones.ipynb) | Intermedio | 13 |
+
+## Procesamiento de lenguaje natural
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Texto, frecuencias y TF-IDF](src/36-procesamiento-de-lenguaje/01-texto-frecuencias-y-tf-idf.ipynb) | Básico | 12 |
+| [Modelos de lenguaje y clasificación](src/36-procesamiento-de-lenguaje/02-modelos-de-lenguaje-y-clasificacion.ipynb) | Intermedio | 12 |
+
+## Optimización
+
+| Notebook | Dificultad | Ejercicios |
+| --- | --- | ---: |
+| [Optimización continua](src/37-optimizacion/01-optimizacion-continua.ipynb) | Básico | 14 |
+| [Programación lineal, entera y combinatoria](src/37-optimizacion/02-programacion-lineal-entera-y-combinatoria.ipynb) | Intermedio | 13 |

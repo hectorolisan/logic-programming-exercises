@@ -1,6 +1,6 @@
 # Logic Programming Exercises
 
-- 1684 Python programming and logic exercises in 189 notebooks, solved and explained in Spanish
+- 2116 Python programming and logic exercises in 224 notebooks, solved and explained in Spanish
 - Organized by topic and ordered from easiest to hardest
 - Each exercise shows the statement followed by its solution, with outputs already rendered
 - Covers language fundamentals, data structures, classic algorithms (searching, sorting, arrays, graphs, backtracking, greedy, dynamic programming) and popular libraries (NumPy, pandas, Matplotlib, Flask, TensorFlow, Qiskit, LangChain...)
@@ -56,26 +56,34 @@ logic-programming-exercises/
 │   ├── 07-funciones/                # Functions, applications, board games (chess, checkers...) and exceptions
 │   ├── 08-programacion-funcional/   # map, filter, reduce, comprehensions, async, iterators, generators, decorators, partial, itertools, coroutines, Project Euler
 │   ├── 09-recursividad/             # Recursion, fractals and backtracking
-│   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing, concurrency, thread synchronization, enum, pathlib, argparse, json, logging, pickle, sockets, os/sys, math/statistics
-│   ├── 11-ficheros/                 # Text, CSV, JSON, XML, ZIP, SQLite, internet files, interpreter, One Billion Row Challenge
-│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python, design patterns and SOLID, algebraic types, polynomials, abstract data types (stacks, queues, sets)
+│   ├── 10-modulos-estandar/         # random, datetime, re, custom modules, testing, concurrency, thread synchronization, enum, pathlib, argparse, json, logging, pickle, sockets, os/sys, math/statistics, advanced asyncio, contextlib, decimal
+│   ├── 11-ficheros/                 # Text, CSV, JSON, XML, ZIP, SQLite, internet files, interpreter, One Billion Row Challenge, compression, TOML/INI, external sorting
+│   ├── 12-clases-objetos/           # Classes and OOP, records, dates, video store, data structures (Fenwick, segment tree, AVL), modern Python, design patterns and SOLID, algebraic types, polynomials, abstract data types (stacks, queues, sets), descriptors and metaclasses
 │   ├── 13-algoritmos-basicos/       # Complexity (Big O), Euclid, Union-Find, Huffman, greedy, divide and conquer, modular arithmetic and primes, special numbers and sequences, numerical methods, number miscellany
-│   ├── 14-busqueda/                 # Linear, binary, DFS, BFS, state-space search (hill climbing, best-first, 8-puzzle)
-│   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap, shell, radix, bucket, sorted
-│   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP, two pointers, sliding window, prefix sums, bits, Rabin-Karp, Z, Manacher
-│   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, A*, bipartite, SCC, bridges, Eulerian path, max flow, graph properties
-│   ├── 18-programacion-dinamica/    # Subset sum, knapsack, coin change, LCS, Levenshtein, LIS, rod cutting, partition, palindromes, matrix chain, grid paths, TSP, partitions and other problems
+│   ├── 14-busqueda/                 # Linear, binary, DFS, BFS, state-space search (hill climbing, best-first, 8-puzzle), ternary, exponential, interpolation, IDA*
+│   ├── 15-ordenacion/               # Bubble, selection, insertion, counting, merge, quick, heap, shell, radix, bucket, sorted, k-way merge and Timsort
+│   ├── 16-arrays/                   # Boyer-Moore, missing numbers, Kadane, Floyd, Quick Select, KMP, two pointers, sliding window, prefix sums, bits, Rabin-Karp, Z, Manacher, monotonic stack, difference arrays, sparse table
+│   ├── 17-grafos/                   # Flood fill, Lee, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, A*, bipartite, SCC, bridges, Eulerian path, max flow, graph properties, bipartite matching, LCA, Borůvka
+│   ├── 18-programacion-dinamica/    # Subset sum, knapsack, coin change, LCS, Levenshtein, LIS, rod cutting, partition, palindromes, matrix chain, grid paths, TSP, partitions and other problems, tree, digit and interval DP
 │   ├── 19-numpy-pandas/             # NumPy and pandas (merge, pivot, cleaning, time series, NumPy practice, masked arrays, exploratory data analysis)
 │   ├── 20-visualizacion/            # Matplotlib, seaborn, wordcloud, yfinance, bokeh, scientific plots (contours, error bars, quiver, 3D)
 │   ├── 21-web-y-apis/               # requests, BeautifulSoup, Flask, MongoDB (mongomock), FastAPI
 │   ├── 22-librerias-cientificas/    # sympy, geopy, rdkit, simpy, scikit-image, qiskit, tensorflow
 │   ├── 23-herramientas/             # cryptography, logging, schedule, pypdf, openpyxl, cffi, pyinstaller, PyQt6, pygame, streamlit, property-based testing with Hypothesis
-│   ├── 24-bases-de-datos/           # SQLite and SQL, SQLAlchemy
-│   ├── 25-machine-learning/         # scikit-learn: regression, classification, clustering and validation
-│   ├── 26-simulacion-y-probabilidad/ # Monte Carlo, random walks, Markov chains
+│   ├── 24-bases-de-datos/           # SQLite and SQL, SQLAlchemy, window functions, recursive CTEs, transactions
+│   ├── 25-machine-learning/         # scikit-learn: regression, classification, clustering and validation, pipelines, PCA, anomalies
+│   ├── 26-simulacion-y-probabilidad/ # Monte Carlo, random walks, Markov chains, bootstrap and Bayesian inference, metaheuristics
 │   ├── 27-retos/                    # Katas, interview problems, puzzles, games and simulations, a task manager and simulation projects, matrices and boards
 │   ├── 28-langchain/                # LangChain and LangSmith: LCEL, tools, agents, RAG from scratch, LangGraph, tracing and evaluation
-│   └── 29-apis-publicas/            # Keyless public APIs with requests: httpbin, JSONPlaceholder, PokéAPI, GitHub, Open-Meteo, World Bank, Frankfurter, Nager.Date, EMSC, Wikipedia, Open Library
+│   ├── 29-apis-publicas/            # Keyless public APIs with requests: httpbin, JSONPlaceholder, PokéAPI, GitHub, Open-Meteo, World Bank, Frankfurter, Nager.Date, EMSC, Wikipedia, Open Library
+│   ├── 30-geometria-computacional/  # Orientation, polygons, point in polygon, segment intersection, convex hulls, sweep lines, Welzl
+│   ├── 31-ia-clasica/               # Minimax, alpha-beta, MCTS, constraint satisfaction (AC-3), propositional logic and SAT (DPLL)
+│   ├── 32-interpretes-y-compiladores/ # Lexer, recursive descent and Pratt parsers, AST, tree-walking evaluator, bytecode stack VM
+│   ├── 33-estructuras-probabilisticas/ # Bloom filters, Count-Min, HyperLogLog, MinHash/LSH, reservoir sampling, skip lists, consistent hashing
+│   ├── 34-algoritmos-de-cadenas/    # Tries, suffix arrays and LCP, Aho-Corasick, suffix automaton, Burrows-Wheeler, sequence alignment
+│   ├── 35-procesamiento-de-senales/ # Sampling, DFT/FFT, aliasing, windows, convolution, filters, spectrograms, DTMF with Goertzel
+│   ├── 36-procesamiento-de-lenguaje/ # Tokenization, n-grams, TF-IDF, language models, Naive Bayes, spelling correction
+│   └── 37-optimizacion/             # Gradient descent, Newton, least squares, Lagrange/KKT, linear and integer programming, simulated annealing
 ├── scripts/
 │   ├── index.py                     # Generates INDEX.md
 │   ├── statements.py                # Copies the notebooks without solutions into statements/

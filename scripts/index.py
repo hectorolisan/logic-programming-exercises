@@ -37,6 +37,14 @@ TEMAS = {
     "27-retos": "Retos",
     "28-langchain": "LangChain y LangSmith",
     "29-apis-publicas": "APIs públicas",
+    "30-geometria-computacional": "Geometría computacional",
+    "31-ia-clasica": "Inteligencia artificial clásica",
+    "32-interpretes-y-compiladores": "Intérpretes y compiladores",
+    "33-estructuras-probabilisticas": "Estructuras de datos probabilísticas",
+    "34-algoritmos-de-cadenas": "Algoritmos de cadenas",
+    "35-procesamiento-de-senales": "Procesamiento de señales",
+    "36-procesamiento-de-lenguaje": "Procesamiento de lenguaje natural",
+    "37-optimizacion": "Optimización",
 }
 NIVELES = ("Básico", "Intermedio", "Avanzado")
 
