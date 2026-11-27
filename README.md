@@ -38,7 +38,21 @@ source .venv/bin/activate     # Linux/macOS
 pip install -r requirements.txt
 ```
 
-Topics 01 to 18 only need `ipykernel`, `matplotlib`, `numpy` and `pytest`; the rest of the dependencies are used from topic 19 onwards.
+This installs everything, including heavy packages such as TensorFlow, Qiskit and PyQt6. To study only some topics, install one profile from `requirements/` instead (each one includes `base.txt`):
+
+| Profile | Topics |
+| --- | --- |
+| `requirements/base.txt` | 01–18, 27, 30–35, 37 |
+| `requirements/datos.txt` | 19, 20, 25, 26, 36 |
+| `requirements/web.txt` | 21, 24, 29 |
+| `requirements/ia.txt` | 28 |
+| `requirements/extra.txt` | 22, 23 |
+
+```bash
+pip install -r requirements/base.txt
+```
+
+You can also open any notebook in Google Colab with the button at the top of each page of the website, without installing anything.
 
 ## Project Structure
 
@@ -87,14 +101,17 @@ logic-programming-exercises/
 ├── scripts/
 │   ├── index.py                     # Generates INDEX.md
 │   ├── statements.py                # Copies the notebooks without solutions into statements/
-│   └── mkdocs_hooks.py              # Fills the website home page with the index
+│   ├── check_notebooks.py           # Checks the notebook conventions without running them (CI)
+│   └── mkdocs_hooks.py              # Fills the website home page with the index and groups the menu
 ├── docs/                            # Website home page, styles and build dependencies
-├── overrides/                       # Material for MkDocs template (download button and credits)
+├── overrides/                       # Material for MkDocs template (Colab and download buttons, credits)
 ├── .github/workflows/pages.yml      # Builds and publishes the website on GitHub Pages
+├── .github/workflows/ci.yml         # Checks notebooks and builds the website on pull requests
 ├── mkdocs.yml                       # Website configuration
 ├── INDEX.md                         # Exercise index
 ├── AGENTS.md                        # Guidance for coding agents
-├── requirements.txt                 # Project dependencies
+├── requirements.txt                 # All project dependencies
+├── requirements/                    # Dependency profiles by topic
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -152,7 +169,7 @@ pip install -r docs/requirements.txt
 mkdocs build
 ```
 
-Every push to `main` publishes it on GitHub Pages through `.github/workflows/pages.yml` (set **Settings → Pages → Source** to **GitHub Actions** in the repository).
+Pull requests run `python scripts/check_notebooks.py` and `mkdocs build --strict` through `.github/workflows/ci.yml`. Every push to `main` publishes it on GitHub Pages through `.github/workflows/pages.yml` (set **Settings → Pages → Source** to **GitHub Actions** in the repository).
 
 ## Sources
 

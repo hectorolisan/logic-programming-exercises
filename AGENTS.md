@@ -12,7 +12,11 @@ notebooks, `INDEX.md` and the website.
 
 ## Commands
 
-- `python -m venv .venv`, activate it, then `pip install -r requirements.txt`: notebook dependencies
+- `python -m venv .venv`, activate it, then `pip install -r requirements.txt`: notebook dependencies. `requirements/`
+  holds per-topic profiles (`base`, `datos`, `web`, `ia`, `extra`); a new dependency goes into the profile of its
+  topic and the README profile table lists which topics each one covers
+- `python scripts/check_notebooks.py`: check H1, `## N.` numbering, kernelspec and error outputs of every notebook
+  without running them (run by `.github/workflows/ci.yml` on pull requests, with `mkdocs build --strict`)
 - `jupyter nbconvert --to notebook --execute --inplace <notebook>`: run a notebook and save its outputs (the kernel's cwd is the notebook folder)
 - `python scripts/index.py`: regenerate `INDEX.md`
 - `python scripts/statements.py`: copy the notebooks without solutions into `statements/` (gitignored)
@@ -54,7 +58,8 @@ does not execute the notebooks: it renders the outputs saved in them.
 3. Run `python scripts/index.py`.
 4. Update the exercise and notebook counts in the first bullet of `README.md` (they are printed by the script) and
    the folder comment in **Project Structure**.
-5. A new topic folder also needs its display name in `TEMAS` (`scripts/index.py`).
+5. A new topic folder also needs its display name in `TEMAS` (`scripts/index.py`) and a block in `BLOQUES`
+   (`scripts/mkdocs_hooks.py`).
 
 ## Website
 
@@ -62,6 +67,9 @@ does not execute the notebooks: it renders the outputs saved in them.
 - `scripts/mkdocs_hooks.py` fills the placeholders of `docs/index.md` (`{{ ejercicios }}`, `{{ notebooks }}`,
   `{{ temas }}`, `<!-- chips -->`, `<!-- indice -->`) from `scripts/index.py`, names the menu sections with `TEMAS`
   and shortens notebook titles in the menu (the browser tab keeps the full title).
+- The menu groups the topic folders into blocks (`BLOQUES` in `scripts/mkdocs_hooks.py`) without renumbering them:
+  a new topic folder must be added to one block or the build fails.
+- `overrides/main.html` adds an "Abrir en Google Colab" button that points to the notebook on the `main` branch.
 - Look: `docs/stylesheets/extra.css` imitates canirun.ai with `#333b4b` as the primary color (a lighter tint is used
   for text in dark mode), Geist / Geist Mono and Geist Pixel for `h1`. `overrides/main.html` adds the notebook
   download button and the credit footer shared with hectorolisan's other projects.
