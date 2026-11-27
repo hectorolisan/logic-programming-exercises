@@ -6,6 +6,9 @@
 
 {% block content %}
   {% if page.nb_url %}
+    <a href="https://colab.research.google.com/github/{{ config.repo_url.split('github.com/')[1] }}/blob/main/src/{{ page.file.src_uri.split('/', 1)[1] }}" title="Abrir en Google Colab" class="md-content__button md-icon" target="_blank" rel="noopener noreferrer">
+      {% include ".icons/simple/googlecolab.svg" %}
+    </a>
     <a href="{{ page.nb_url }}" title="Descargar notebook" class="md-content__button md-icon" download>
       {% include ".icons/material/download.svg" %}
     </a>
