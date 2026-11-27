@@ -1,44 +1,6 @@
-ipykernel
-pytest
-matplotlib
-numpy
-pandas
-seaborn
-sympy
-cryptography
-flask
-pygame
-pypdf
-openpyxl
-scikit-image
-simpy
-geopy
-rdkit
-yfinance
-bokeh
-wordcloud
-pyinstaller
-PyQt6
-streamlit
-statsbombpy
-schedule
-tensorflow
-qiskit
-qiskit-aer
-cffi
-ziglang
-requests
-beautifulsoup4
-lxml
-pymongo
-mongomock
-Pillow
-scikit-learn
-sqlalchemy
-fastapi
-httpx
-langchain
-langchain-text-splitters
-langgraph
-langsmith
-hypothesis
+# Everything; install a single profile from requirements/ to study only some topics
+-r requirements/base.txt
+-r requirements/datos.txt
+-r requirements/web.txt
+-r requirements/ia.txt
+-r requirements/extra.txt

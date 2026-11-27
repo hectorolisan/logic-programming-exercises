@@ -1,0 +1,7 @@
+# Topic 28 (local models, no API keys)
+-r base.txt
+scikit-learn
+langchain
+langchain-text-splitters
+langgraph
+langsmith

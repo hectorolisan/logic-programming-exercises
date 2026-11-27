@@ -1,0 +1,11 @@
+# Topics 19, 20, 25, 26 and 36
+-r base.txt
+seaborn
+bokeh
+wordcloud
+scikit-learn
+scikit-image
+simpy
+requests
+yfinance
+statsbombpy

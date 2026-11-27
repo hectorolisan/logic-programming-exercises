@@ -1,0 +1,20 @@
+# Topics 22 and 23: heavy or platform-specific packages
+-r base.txt
+scikit-image
+simpy
+geopy
+rdkit
+tensorflow
+qiskit
+qiskit-aer
+cryptography
+pypdf
+openpyxl
+schedule
+streamlit
+cffi
+ziglang
+pyinstaller
+PyQt6
+pygame
+Pillow

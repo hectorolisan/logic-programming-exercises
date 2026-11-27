@@ -1,0 +1,10 @@
+# Topics 01-18, 27 and 30-35, 37
+ipykernel
+pytest
+hypothesis
+matplotlib
+numpy
+scipy
+pandas
+sympy
+networkx

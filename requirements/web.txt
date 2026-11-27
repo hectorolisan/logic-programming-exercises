@@ -1,0 +1,11 @@
+# Topics 21, 24 and 29
+-r base.txt
+requests
+beautifulsoup4
+lxml
+flask
+fastapi
+httpx
+pymongo
+mongomock
+sqlalchemy
